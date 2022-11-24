@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    background:#333;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: auto;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.sec-header {
+    min-height: 60px;
+}
+
+.header {
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li {
+    float: left;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+.header ul li a {
+    color: #ffffff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.content {
+    color: #ffffff;
+}
+
+.content-descriptions {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.content-descriptions h1 {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.content-descriptions p {
+    margin-top: 10px;
+}
+
+.content-skills {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.skills {
+    width: 350px;
+    margin-top: 10px;
+    background: #121212;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.skill-img {
+    padding-top: 8px;
+    width: 50px;
+}
+
+.title-skills {
+    padding: 10px 20px;
+}
+
+.progress-skills {
+    margin-top: 3px;
+    background: #313131;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    padding: 3px;
+}
+
+.progress-skills:after {
+    content: '';
+    display: block;
+    background: #3700B3;
+    width: 50%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.progress-html:after {
+    width: 80%;
+}
+
+.progress-css:after {
+    width: 65%;
+}
+
+.mastfoot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    color:#ffffff;
+    padding: 20px 0;
+}
+.text-center {
+    text-align: center!important;
+}
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+
+@media ( min-width: 768px ) {
+    .container {
+        width: 678px;
+        margin: auto;
+    }
+}
+
+@media ( min-width: 1100px ) {
+    .container {
+        width: 1024px;
+        margin: auto;
+    }
+
+    .content-descriptions {
+        padding-top: 150px;
+        width: 40%;
+    }
+    
+    .content-skills {
+        width: 40%;
+    }
+}
