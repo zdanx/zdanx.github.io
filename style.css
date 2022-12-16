@@ -120,11 +120,11 @@ body {
 }
 
 .progress-html:after {
-    width: 80%;
+    width: 25%;
 }
 
 .progress-css:after {
-    width: 65%;
+    width: 10%;
 }
 
 .mastfoot {
