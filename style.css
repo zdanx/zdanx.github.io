@@ -170,3 +170,16 @@ body {
         width: 40%;
     }
 }
+
+.gambar-bulat {
+    width: 150px; /* Sesuaikan ukuran gambar */
+    height: 150px; /* Sesuaikan ukuran gambar */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    overflow: hidden; /* Mengatur overflow untuk bentuk lingkaran */
+    margin-right: 10px; /* Margin antara gambar dan teks */
+}
+
+.gambar-bulat img {
+    width: 100%; /* Mengisi gambar ke dalam elemen */
+    height: auto; /* Menjaga proporsi asli gambar */
+}
